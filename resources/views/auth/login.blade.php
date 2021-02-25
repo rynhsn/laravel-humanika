@@ -19,7 +19,7 @@
   <!-- /.login-logo -->
   <div class="card card-outline card-primary">
     <div class="card-header text-center">
-      <a href="{{asset ('')}}index2.html" class="h1"><b>HUMANIKA</b>LTE</a>
+      <a href="{{asset ('')}}index2.html" class="h1">HUMANIKA LTE</a>
     </div>
     <div class="card-body">
       <p class="login-box-msg">Sign in to start your session</p>
