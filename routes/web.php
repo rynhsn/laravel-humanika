@@ -21,4 +21,5 @@ Route::group(['middleware' => 'checkSession' ], function () {
 });
 
 Route::get('/login', [HomeController::class, 'login']);
+Route::post('/masuk', [HomeController::class, 'masuk']);
 
