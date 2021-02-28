@@ -10,7 +10,7 @@ class HomeController extends Controller
 {
     public function index(Request $request)
     {
-        return view('welcome');
+        return view('layout.app');
     }
 
     public function login(Request $request)

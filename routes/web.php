@@ -16,7 +16,7 @@ use App\Http\Controllers\HomeController;
 
 Route::group(['middleware' => 'checkSession' ], function () {
     Route::get('/', function ()    {
-        return view('welcome');
+        return view('layout.app');
     });
 });
 
